@@ -40,7 +40,18 @@ screen sc_menu_reiniciar_valores():
 
         vbox:
             textbutton "Reiniciar":
-                action [SetVariable("mana", 10), SetVariable("sangre", 100), Return()]
+                action [SetVariable("mana", 10), SetVariable("sangre", 100)]
+
+screen sc_kill():
+
+    frame:
+
+        align (0.9,0.5)
+        padding (20,20)
+
+        vbox:
+            textbutton "Kill":
+                action [SetVariable("mana", 0), SetVariable("sangre", 0)]
 
 
 label fn_asigna_valores(_mana,_sangre):

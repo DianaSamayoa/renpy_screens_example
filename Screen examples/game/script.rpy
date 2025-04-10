@@ -100,6 +100,7 @@ label menus_frame:
 
     show screen sc_reducir_valores
     show screen sc_menu_reiniciar_valores
+    show screen sc_kill
 
     "Puedes jugar con los valores de los menus."
 
